@@ -1,0 +1,18 @@
+{
+  "test_lawyer": {
+    "username": "test_lawyer",
+    "password_hash": "$2b$12$MCBNpUh8Dv/0cdto1jz5EeJ/B6UWs.kcW3kLyGJgWlF.TL09gMNlW",
+    "email": "lawyer@lexiq.com",
+    "full_name": "Test Lawyer",
+    "role": "lawyer",
+    "created_at": null
+  },
+  "vk12345": {
+    "username": "vk12345",
+    "password_hash": "$2b$12$hWc2ADa33hfaCdp/g4TQ6uV0yHU/FeOi.PRkpQe6QeFEKVTaUn.8G",
+    "email": "vedant@gmail.com",
+    "full_name": "Vedant Kandge",
+    "role": "user",
+    "created_at": null
+  }
+}
