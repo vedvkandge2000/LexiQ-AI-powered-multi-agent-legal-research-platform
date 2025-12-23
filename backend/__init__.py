@@ -1,0 +1,2 @@
+# LexiQ Backend API
+

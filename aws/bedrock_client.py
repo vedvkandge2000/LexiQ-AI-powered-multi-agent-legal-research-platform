@@ -54,8 +54,12 @@ def call_claude(prompt: str, max_tokens: int = 800, temperature: float = 0.3, ti
     }
 
     # Claude 3 Sonnet via Bedrock
+    # Option 1: Claude 3 Sonnet (stable, recommended)
     model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
-
+    
+    # Option 2: Claude Sonnet 4 (if you have access to inference profiles)
+    # model_id = "us.anthropic.claude-sonnet-4-5-20250929-v1:0"  # US East region inference profile
+    # model_id = "anthropic.claude-sonnet-4-5-20250929-v1:0"     # Alternative inference profile
     try:
         # Add timeout configuration
         response = bedrock.invoke_model(

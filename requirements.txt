@@ -1,26 +1,42 @@
-streamlit
+# LexiQ - AI Legal Research Platform
+# Backend API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# AWS
 boto3
+
+# LangChain & AI
 langchain
 langchain-aws
 langchain-experimental
 langchain-community
 langchain-core
 langchain-text-splitters
+
+# Vector Store
 faiss-cpu
+
+# PDF Processing
 PyMuPDF
 pypdf
+
+# API & Networking
 openai
 requests
+
+# Utilities
 python-dotenv
 beautifulsoup4
 pandas
 numpy==1.26.4
 pydantic
 pydantic-settings
-flask
-flask-cors
-werkzeug
+
+# News
 gnews
+
+# Authentication
 pyjwt
 bcrypt
-streamlit-authenticator
